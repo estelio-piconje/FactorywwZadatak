@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: #393939;
+}
+
+.main {
+  padding: 10px 20px;
+}
+
+table {
+  margin: 0 auto;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  border: 2px solid #1d9f63;
+  border-radius: 10px;
+}
+
+.TableDiv {
+  padding: 10px;
+}
+
+td {
+  padding: 5px 10px;
+  width: 25%;
+  background-color: #222222;
+  color: #707070;
+}
+
+th {
+  color: #177f4f;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.th {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.padding {
+  padding: 10px 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171b24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #177f4f;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d9f63;
+}
+
+.searchNameDiv {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.Search {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tips {
+  font-style: italic;
+  color: #1d9f63;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputName {
+  font-size: 16px;
+  height: 20px;
+  border: 1px solid #1d9f63;
+  border-radius: 5px;
+  padding: 2px 4px;
+  text-align: center;
+  color: white;
+  width: 700px;
+  margin: 10px auto;
+}
+
+.searchNameDiv .inputName::placeholder {
+  font-style: italic;
+}
+
+.sortIcon {
+  font-size: 25px;
+  color: #1d9f63;
+}
